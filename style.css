@@ -1,6 +1,7 @@
 body{
     font-family: 'Playfair Display', serif;
-    padding-bottom: 50px;
+    margin: 0;
+    /* padding-bottom: 50px; */
 }
 .side-color{
     border-left: 7px solid;
@@ -9,13 +10,13 @@ body{
 }
 h1{
     font-size: 40px;
-    
 }
 .color{
     color: palevioletred;
 }
 .flexible-container{
     display: flex;
+    
 }
 .about-me{
     width: 50%;
@@ -66,8 +67,8 @@ h1{
 }
 .develope img{
     width: 100%;
-    margin-top: 20%;
-    margin-right: 20%;
+    margin-top: 20px;
+    /* margin-right: 20px; */
 }
 .develope{
     width: 50%;
@@ -75,12 +76,47 @@ h1{
     margin-bottom: 10%;
     
 }
+
 .know-me img{
     width: 80%;
 }
 .know-me{
     width: 50%;
     padding-left: 10%;
+}
+.fifth-section{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.do{
+    color: rgb(153, 15, 153);
+}
+.skills{
+    width: 40%;
+    margin: 5%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.skills img{
+    width: 80%;
+    
+}
+#web-development{
+    
+    background-color: darkturquoise;
+    
+}
+#web-design{
+    
+    background-color: deepskyblue;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
 }
 
 
