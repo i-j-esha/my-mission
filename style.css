@@ -1,6 +1,6 @@
 body{
     font-family: 'Playfair Display', serif;
-    padding-left: 10%;
+    
 }
 h1{
     font-size: 40px;
@@ -8,8 +8,15 @@ h1{
 .color{
     color: palevioletred;
 }
-.first-section{
+.flexible-container{
     display: flex;
+}
+.about-me{
+    width: 50%;
+    padding-left: 5%;
+}
+.about-me img{
+    width: 60%;
 }
 .button{
     color: papayawhip;
@@ -17,4 +24,34 @@ h1{
     background-image: linear-gradient(rgb(238, 103, 41), rgb(200, 7, 39));
     border-radius: 5px;
     padding: 5px 10px;
+}
+.second-section{
+    padding-left: 10px;
+}
+.h{
+    text-align: center;
+}
+.year-color{
+    color: palevioletred;
+    font-size: 50px;
+}
+.middle-boxs img{
+    width: 80%;
+    
+}
+.middle-boxs{
+    width: 30%;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+}
+#first-logo{
+    background-color: rgb(251, 222, 232);
+}
+#second-logo{
+    background-color: powderblue;
+}
+#third-logo{
+    background-color: rgb(246, 246, 198);
 }
