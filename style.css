@@ -2,8 +2,14 @@ body{
     font-family: 'Playfair Display', serif;
     
 }
+.side-color{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(0, 217, 255));
+    border-image-slice: 1;
+}
 h1{
     font-size: 40px;
+    
 }
 .color{
     color: palevioletred;
@@ -26,7 +32,7 @@ h1{
     padding: 5px 10px;
 }
 .second-section{
-    padding-left: 10px;
+    padding: 60px;
 }
 .h{
     text-align: center;
@@ -36,18 +42,20 @@ h1{
     font-size: 50px;
 }
 .middle-boxs img{
-    width: 80%;
+    width: 40%; 
     
 }
 .middle-boxs{
     width: 30%;
     border-radius: 5px;
-    margin: 20px;
-    padding: 50px;
+    margin: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 20px;
 }
 #first-logo{
     background-color: rgb(251, 222, 232);
+    
 }
 #second-logo{
     background-color: powderblue;
@@ -55,3 +63,4 @@ h1{
 #third-logo{
     background-color: rgb(246, 246, 198);
 }
+
