@@ -66,13 +66,14 @@ h1{
     background-color: rgb(246, 246, 198);
 }
 .develope img{
-    width: 100%;
+    width: 80%;
     margin-top: 20px;
     /* margin-right: 20px; */
 }
 .develope{
     width: 50%;
-    margin-left: 20%;
+    margin-left: 70px;
+    /* margin-right: 20%; */
     margin-bottom: 10%;
     
 }
@@ -97,10 +98,6 @@ h1{
     padding: 30px;
     border-radius: 20px;
     box-shadow: 10px 10px 40px gray;
-}
-.skills img{
-    width: 80%;
-    
 }
 #web-development{
     
